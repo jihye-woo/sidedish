@@ -40,9 +40,9 @@ CREATE TABLE IF NOT EXISTS `sidedish`.`dish` (
 DROP TABLE IF EXISTS `sidedish`.`delivery` ;
 
 CREATE TABLE IF NOT EXISTS `sidedish`.`delivery` (
-                                                     `id` INT NOT NULL AUTO_INCREMENT,
-                                                     `is_monday` TINYINT NOT NULL,
-                                                     `delivery_type` VARCHAR(255) NOT NULL DEFAULT '새벽배송, 택배배송',
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `is_monday` TINYINT NOT NULL,
+    `delivery_type` VARCHAR(255) NOT NULL DEFAULT '새벽배송, 택배배송',
     `delivery_fee` DECIMAL(4,0) NOT NULL DEFAULT 2500,
     `delivert_condition` DECIMAL(5,0) NOT NULL DEFAULT 40000,
     `dish_hash` CHAR(5) NOT NULL,
@@ -62,8 +62,8 @@ CREATE TABLE IF NOT EXISTS `sidedish`.`delivery` (
 DROP TABLE IF EXISTS `sidedish`.`image` ;
 
 CREATE TABLE IF NOT EXISTS `sidedish`.`image` (
-                                                  `id` INT NOT NULL AUTO_INCREMENT,
-                                                  `image_url` VARCHAR(255) NOT NULL,
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `image_url` VARCHAR(255) NOT NULL,
     `dish_hash` CHAR(5) NOT NULL,
     `is_thumb` TINYINT NOT NULL,
     PRIMARY KEY (`id`),
@@ -82,8 +82,8 @@ CREATE TABLE IF NOT EXISTS `sidedish`.`image` (
 DROP TABLE IF EXISTS `sidedish`.`event` ;
 
 CREATE TABLE IF NOT EXISTS `sidedish`.`event` (
-                                                  `id` INT NOT NULL,
-                                                  `badge` VARCHAR(255) NULL,
+    `id` INT NOT NULL,
+    `badge` VARCHAR(255) NULL,
     `dish_hash` CHAR(5) NOT NULL,
     PRIMARY KEY (`id`),
     INDEX `fk_Event_dish1_idx` (`dish_hash` ASC) VISIBLE,
@@ -101,8 +101,8 @@ CREATE TABLE IF NOT EXISTS `sidedish`.`event` (
 DROP TABLE IF EXISTS `sidedish`.`best` ;
 
 CREATE TABLE IF NOT EXISTS `sidedish`.`best` (
-                                                 `category_id` INT NOT NULL,
-                                                 `name` VARCHAR(255) NOT NULL,
+    `category_id` INT NOT NULL,
+    `name` VARCHAR(255) NOT NULL,
     PRIMARY KEY (`category_id`))
     ENGINE = InnoDB;
 
@@ -113,8 +113,8 @@ CREATE TABLE IF NOT EXISTS `sidedish`.`best` (
 DROP TABLE IF EXISTS `sidedish`.`dish_best` ;
 
 CREATE TABLE IF NOT EXISTS `sidedish`.`dish_best` (
-                                                      `category_id` INT NOT NULL,
-                                                      `dish_hash` CHAR(5) NOT NULL,
+    `category_id` INT NOT NULL,
+    `dish_hash` CHAR(5) NOT NULL,
     INDEX `fk_dish_best_best1_idx` (`category_id` ASC) VISIBLE,
     INDEX `fk_dish_best_dish1_idx` (`dish_hash` ASC) VISIBLE,
     CONSTRAINT `fk_dish_best_best1`
