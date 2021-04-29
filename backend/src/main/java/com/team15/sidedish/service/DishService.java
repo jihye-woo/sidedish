@@ -1,6 +1,7 @@
 package com.team15.sidedish.service;
 
 import com.team15.sidedish.domain.DishRepository;
+import com.team15.sidedish.domain.DishSection;
 import com.team15.sidedish.dto.DishDAO;
 import com.team15.sidedish.exception.CannotFoundDishException;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,7 @@ public class DishService {
     }
 
     public List<DishDAO> showDishsBySection(String section) {
+        DishSection.checkSectionName(section);
         return dishRepository.findAllBySection(section);
     }
 }
