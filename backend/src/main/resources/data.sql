@@ -525,60 +525,60 @@ INSERT INTO image(id, image_url, dish_hash, is_thumb) VALUES (315, 'http://publi
 
 -- 할인특가 세트상품
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H9881', 'https://cdn.bmf.kr/_data/product/H9881/910a01a81c49cb75414edb759237501f.jpg', '[소중한식사] 경상도 한상차림', '경상도 명물 요리 세 가지를 한 상에!', 39000, 31200, NULL, 10);
+VALUES('H9881', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKsXl87O52u3GAeCd3J6Q69bmxdhJ3W3px3w&usqp=CAU', '[소중한식사] 경상도 한상차림', '경상도 명물 요리 세 가지를 한 상에!', 39000, 31200, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (13, '이벤트특가', 'H9881');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (25, 0, 'H9881');
 
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('HDF4C', 'image":"https://cdn.bmf.kr/_data/product/HDF4C/954b78f9111bbef54ede9fdcdf1298d8.jpg', '[딩고] 시그니처 3종 SET', '오늘 저녁은 이상하게 안주빨을 세워보고 싶다!', 32800, 24000, NULL, 10);
+VALUES('HDF4C', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYfOd-Ufjsb1LbSSKKFsfOyu0TVhPPQogSA&usqp=CAU', '[딩고] 시그니처 3종 SET', '오늘 저녁은 이상하게 안주빨을 세워보고 싶다!', 32800, 24000, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (14, '이벤트특가', 'HDF4C');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (26, 1, 'HDF4C');
 
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H7F20', 'https://cdn.bmf.kr/_data/product/H7F20/dc164f934d614469d097ccd0cd57cb5e.jpg', '[집밥의완성]초여름보양세트', '무더위에 대비하는 6월 한상차림 초여름 보양세트', 26000, 18200, NULL, 10);
+VALUES('H7F20', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROX18fB-DB-lQ1b462dUPmay5X9eWa_wTwsg&usqp=CAU', '[집밥의완성]초여름보양세트', '무더위에 대비하는 6월 한상차림 초여름 보양세트', 26000, 18200, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (15, '이벤트특가', 'H7F20');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (27, 1, 'H7F20');
 
 -- 풍성한 고기반찬
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('HA567', 'https://cdn.bmf.kr/_data/product/HA567/a5bbaa6bfb727030345f26ca9afe27c5.jpg', '[아내의쉐프] 아쉐찜닭', '아내의쉐프가 자신 있게 만들어서 이름도 ''아쉐찜닭''입니다!', 11900, 10700, NULL, 10);
+VALUES('HA567', 'https://i.pinimg.com/originals/c7/bd/e4/c7bde4d2b7b628313d7c5a7052f4a19b.jpg', '[아내의쉐프] 아쉐찜닭', '아내의쉐프가 자신 있게 만들어서 이름도 ''아쉐찜닭''입니다!', 11900, 10700, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (16, '이벤트특가, 론칭특가', 'HA567');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (28, 0, 'HA567');
 
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('H206E', 'https://cdn.bmf.kr/_data/product/H206E/325c7aeb1673ffe58052463d93e407b8.jpg', '[애슐리투고] 로스트 콤보 450g', '립과 치킨이 만나  더욱 맛있게', 10900, NULL, 10);
+VALUES('H206E', 'https://cdn.crowdpic.net/list-thumb/thumb_l_CDA26987196DADA8565F97EB19E5798F.jpg', '[애슐리투고] 로스트 콤보 450g', '립과 치킨이 만나  더욱 맛있게', 10900, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (18, '론칭특가', 'H206E');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (29, 1, 'H206E');
 
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H75A2', 'https://cdn.bmf.kr/_data/product/H75A2/f0d1fade9f7d16e7e33211a26c3aa469.jpg', '[한옥집]소갈비김치찜 2인분', '부드러운 소갈비와 함께 푹 쪄낸 김치찜!', 16500, 14850, NULL, 10);
+VALUES('H75A2', 'http://tong.visitkorea.or.kr/cms/resource/46/2544546_image2_1.bmp', '[한옥집]소갈비김치찜 2인분', '부드러운 소갈비와 함께 푹 쪄낸 김치찜!', 16500, 14850, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (19, '이벤트특가', 'H75A2');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (30, 1, 'H75A2');
 
 -- 편리한 반찬세트
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('E055F', 'https://cdn.bmf.kr/_data/product/201410/13/b8b0a0aba3386f030155b6cb0c1c75fa.jpg', '[동네부엌] 사계절 건강식단 작은상', '마포엄마들이 사랑해온 건강반찬', 24000, NULL, 10);
+VALUES('E055F', 'https://i.pinimg.com/originals/72/88/29/7288299a58377dbab492a1b368cdcfd1.jpg', '[동네부엌] 사계절 건강식단 작은상', '마포엄마들이 사랑해온 건강반찬', 24000, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (20, '베스트', 'E055F');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (31, 0, 'E055F');
 
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('FDAEB', 'https://cdn.bmf.kr/_data/product/201511/04/35365307dba3c23028a55027b29e88c9.jpg', '[집밥의완성] 한상 가득 세트 (3~4인)', '식단 정기배송으로 반찬고민 끝', 32000, NULL, 10);
+VALUES('FDAEB', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfnOJtoxSHocEYq12zTHG-gygrB7XqLPy5A&usqp=CAU', '[집밥의완성] 한상 가득 세트 (3~4인)', '식단 정기배송으로 반찬고민 끝', 32000, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (21, '베스트', 'FDAEB');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (32, 1, 'FDAEB');
 
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H762E', 'https://cdn.bmf.kr/_data/product/H762E/03cfe3d522df7451ca09ff1e0eede530.jpg', '[옹가솜씨] 한끼뚝딱세트', '한 세트만 있으면 한 끼 뚝딱', 19500, 17500, NULL, 10);
+VALUES('H762E', 'https://scontent-ssn1-1.xx.fbcdn.net/v/t1.18169-9/12802754_1043627362374281_9198200638822542637_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeHT7tZW3HiqpmjE6DREy2RHai2T60fwmQtqLZPrR_CZC45KYP5RaxnO2fBeQ_hdma97wZtdJFhyHEO-gx3NT5LW&_nc_ohc=qKFsrIqmZ_wAX-OVvZB&_nc_ht=scontent-ssn1-1.xx&oh=8caa8159fca5218c5925875048874fcb&oe=60B0C4E6', '[옹가솜씨] 한끼뚝딱세트', '한 세트만 있으면 한 끼 뚝딱', 19500, 17500, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (22, '이벤트특가', 'H762E');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (33, 1, 'H762E');
 
 -- 간편한 덮밥요리
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('H05FB', 'https://cdn.bmf.kr/_data/product/H05FB/6ff744c6f36ba437a4f8b9e9a000b0b1.jpg', '[옹가솜씨] 소고기쩜짜장 280g', '짜장의 착한 변신', 7200, NULL, 10);
+VALUES('H05FB', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZk5fHyWpcRQbpvtk7CYkOf9Utzc0gTfZMw&usqp=CAU', '[옹가솜씨] 소고기쩜짜장 280g', '짜장의 착한 변신', 7200, NULL, 10);
 -- event x
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (34, 1, 'H05FB');
 
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H0699', 'https://cdn.bmf.kr/_data/product/H0699/295db179a21edac9aad382686cb80be8.jpg', '[무명식당]뿌리채소비빔밥 2인분', '각종 뿌리채소를 듬뿍 넣어 지은 뿌리채소영양밥', 5000, 4750, NULL, 10);
+VALUES('H0699', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLZOSyPhbUxvethq3ayF8e97-EI7U4I24nZw&usqp=CAU', '[무명식당]뿌리채소비빔밥 2인분', '각종 뿌리채소를 듬뿍 넣어 지은 뿌리채소영양밥', 5000, 4750, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (23, '이벤트특가', 'H0699');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (35, 1, 'H0699');
 --
@@ -589,15 +589,15 @@ INSERT INTO delivery(id, is_monday, dish_hash) VALUES (35, 1, 'H0699');
 
 -- 우리아이 영양반찬
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('H82A2', 'https://cdn.bmf.kr/_data/product/H82A2/a43eaf448c21906cd1300735fa9dd7a1.jpg', '[빅마마의밥친구] 입맛감각 살려주는 유부토마토조림 200g', '아이반찬과 다이어트 반찬으로 일석이조!', 4900, NULL, 10);
+VALUES('H82A2', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR7WYSuJbfveUrvedIABBF5lmkCl6MmRG1wQ&usqp=CAU', '[빅마마의밥친구] 입맛감각 살려주는 유부토마토조림 200g', '아이반찬과 다이어트 반찬으로 일석이조!', 4900, NULL, 10);
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (37, 0, 'H82A2');
 
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('H213E', 'https://cdn.bmf.kr/_data/product/H213E/2895aa13fce2c5721f210080a2429562.jpg', '[동네부엌] 수제미트볼조림 300g', '재료부터 다른 수제미트볼조림', 8700, NULL, 10);
+VALUES('H213E', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrYOowVsITQqNT20_wNE6FS-spKw1YxF7vQ&usqp=CAU', '[동네부엌] 수제미트볼조림 300g', '재료부터 다른 수제미트볼조림', 8700, NULL, 10);
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (38, 0, 'H213E');
 
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
-VALUES('H7A16', 'https://cdn.bmf.kr/_data/product/H7A16/1a9e0f1c8de0e0d268bace68d50b0bf1.jpg', '[Young313] 흰살생선 된장소스구이 200g', '부드러운 명태살을 이용한 특별한 생선요리', 9000, NULL, 10);
+VALUES('H7A16', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWGOt_ztlIohPHzqt5bziHAhEBAs9OIWfr1w&usqp=CAU', '[Young313] 흰살생선 된장소스구이 200g', '부드러운 명태살을 이용한 특별한 생선요리', 9000, NULL, 10);
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (39, 1, 'H7A16');
 
 
