@@ -558,7 +558,7 @@ VALUES('FDAEB', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfnOJtox
 INSERT INTO event(id, badge, dish_hash) VALUES (21, '베스트', 'FDAEB');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (32, 1, 'FDAEB');
 INSERT INTO dish(hash, top_image, title, description, normal_price, special_price, section_name, stock)
-VALUES('H762E', 'https://scontent-ssn1-1.xx.fbcdn.net/v/t1.18169-9/12802754_1043627362374281_9198200638822542637_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8bfeb9&_nc_eui2=AeHT7tZW3HiqpmjE6DREy2RHai2T60fwmQtqLZPrR_CZC45KYP5RaxnO2fBeQ_hdma97wZtdJFhyHEO-gx3NT5LW&_nc_ohc=qKFsrIqmZ_wAX-OVvZB&_nc_ht=scontent-ssn1-1.xx&oh=8caa8159fca5218c5925875048874fcb&oe=60B0C4E6', '[옹가솜씨] 한끼뚝딱세트', '한 세트만 있으면 한 끼 뚝딱', 19500, 17500, NULL, 10);
+VALUES('H762E', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe78284bQ5R6qhdMZJ28hM61v2vAM4VRThgw&usqp=CAU', '[옹가솜씨] 한끼뚝딱세트','한 세트만 있으면 한 끼 뚝딱', 19500, 17500, NULL, 10);
 INSERT INTO event(id, badge, dish_hash) VALUES (22, '이벤트특가', 'H762E');
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (33, 1, 'H762E');
 -- 간편한 덮밥요리
@@ -585,6 +585,7 @@ INSERT INTO delivery(id, is_monday, dish_hash) VALUES (38, 0, 'H213E');
 INSERT INTO dish(hash, top_image, title, description, special_price, section_name, stock)
 VALUES('H7A16', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWGOt_ztlIohPHzqt5bziHAhEBAs9OIWfr1w&usqp=CAU', '[Young313] 흰살생선 된장소스구이 200g', '부드러운 명태살을 이용한 특별한 생선요리', 9000, NULL, 10);
 INSERT INTO delivery(id, is_monday, dish_hash) VALUES (39, 1, 'H7A16');
+
 INSERT INTO best(category_id, name) VALUES (17011200, '할인특가 세트상품');
 INSERT INTO best(category_id, name) VALUES (17011000, '풍성한 고기반찬');
 INSERT INTO best(category_id, name) VALUES (17010200, '편리한 반찬세트');
