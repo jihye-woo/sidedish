@@ -21,8 +21,8 @@ const DetailUpper = ({ ...props }) => {
   `;
 
   useEffect(() => {
-    setTopImage(detailDish.top_image);
-  }, [detailDish.top_image]);
+    setTopImage(detailDish.image);
+  }, [detailDish.image]);
 
   const ImageWrapper = styled.div`
     display: flex;

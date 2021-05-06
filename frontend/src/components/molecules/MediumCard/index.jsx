@@ -37,7 +37,7 @@ const MediumCard = ({ children, ...props }) => {
         <Span className="_title">{props._title}</Span>
         <Span className="_description">{props._description}</Span>
         <WrapContent>
-          <Span className="_sPrice">{getComma(props._sPrice)}원</Span>
+          <Span className="_sPrice">{getComma(props._sPrice)}</Span>
           <Span className="_nPrice">{getComma(props._nPrice)}</Span>
         </WrapContent>
         <TagBox _badge={props._badge} />

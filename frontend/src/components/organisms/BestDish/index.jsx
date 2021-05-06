@@ -12,9 +12,11 @@ const BestDish = ({ children, ...props }) => {
   const currentItem = bestDish[currentIndex];
 
   //임시이미지
-  const tempImgUrl =
-    "http://public.codesquad.kr/jk/storeapp/data/f6817349118d4c671da8dca9065649a9.jpg";
-
+  const tempImgList = [
+    "http://public.codesquad.kr/jk/storeapp/data/detail/HDF73/0f95f44ea8e2e7930321def493753a48.jpg",
+    "http://public.codesquad.kr/jk/storeapp/data/detail/HBDEF/4cce011a4a352c22cd399a60271b4921.jpg",
+    "http://public.codesquad.kr/jk/storeapp/data/b6beada6b89af950289003d929936d9c.jpg",
+  ];
   useEffect(() => {
     loadData(setBestDish, props._dishType);
   }, [props._dishType]);
@@ -48,14 +50,14 @@ const BestDish = ({ children, ...props }) => {
         })}
       </WrapTab>
       <WrapCard>
-        {currentItem.dishes.map((card, i) => (
+        {currentItem.items.map((card, i) => (
           <LargeCard
             key={card.detail_hash}
-            _image={card.image}
+            _image={tempImgList[i]}
             _title={card.title}
             _description={card.description}
-            _nPrice={getComma(card.normal_price)}
-            _sPrice={getComma(card.special_price)}
+            _nPrice={getComma(card.n_price)}
+            _sPrice={getComma(card.s_price)}
             _badge={card.badge}
           ></LargeCard>
         ))}

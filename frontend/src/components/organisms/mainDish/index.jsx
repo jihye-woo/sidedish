@@ -19,8 +19,8 @@ const MainDish = (props) => {
         _image={card.image}
         _title={card.title}
         _description={card.description}
-        _nPrice={card.normal_price}
-        _sPrice={card.special_price}
+        _nPrice={card.n_price}
+        _sPrice={card.s_price}
         _badge={card.badge}
         _hash={card.detail_hash}
       ></MediumCard>
